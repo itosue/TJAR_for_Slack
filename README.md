@@ -4,8 +4,8 @@ TJAR - Throw JSON After Rendering.
 This addon throws JSON webhook to Slack after rendering. You don't need to check whteher rendering is finished or not anymore.
 You can send notification to any device via slack.(I get notifications from Pebble via SlackApp.) 
 
-Usage
-1)Fill in your webhook URL and channel in preference panel.
+Usage  
+1)Fill in your webhook URL and channel in preference panel.  
 2)Check a checkbox in Properties > Render > Throw JSON After Rendering
 
 This addon sends 2 messages.  
@@ -23,8 +23,8 @@ Render終了時にSlackへMessageを投げるスクリプトです。
 もっと汎用的にJSONを投げるアドオンにしたかったのですが、時間が無いのでとりあえずSlack特化でリリースします。
 ちょっとコード読める人なら簡単に改造できると思いますので、色々いじってみてください。（URLとJSONのコードの部分を変えたらIFTTT用とかにすぐ改造できると思います。）私はSlack→SlackのAndroidApp→Notification→Pebbleという感じで、通知を受け取るようにしています。
 
-使い方
-１）プリファレンスパネル（Addonの管理画面）でSlackのwebhook URLとチャンネルを入力する
+使い方  
+１）プリファレンスパネル（Addonの管理画面）でSlackのwebhook URLとチャンネルを入力する  
 ２）プロパティパネル＞レンダーパネル＞Throw JSON After Renderingの所にあるCheckboxにチェックを入れる。
 
 投げられるメッセージ  
