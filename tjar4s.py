@@ -9,12 +9,12 @@ import urllib.request
 bl_info = {
     "name": "throw json after rendering for Slack",
     "author": "itosue",
-    "version": (1, 0),
+    "version": (1, 1),
     "blender": (2, 77, 0),
     "location": "Properties > Render",
     "description": "This addon sends message to Slack after rendering.",
     "warning": "",
-    "support": "TESTING",
+    "support": "COMMUNITY",
     "wiki_url": "",
     "tracker_url": "https://github.com/itosue/TJAR_for_Slack/issues",
     "category": "Render"
