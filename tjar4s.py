@@ -32,7 +32,7 @@ class tjafAddonPreferences(AddonPreferences):
         default="#general",
         )
 
-# May be implement later
+# Maybe implement later
 #    message = StringProperty(
 #            name="Message",
 #            default="render finished",
@@ -43,7 +43,7 @@ class tjafAddonPreferences(AddonPreferences):
         layout.label(text="Please set your WebhookURL and Channel")
         layout.prop(self, "URL")
         layout.prop(self, "cn_name")
-#        layout.prop(self, "message") # May be implement later
+#        layout.prop(self, "message") # Maybe implement later
 
         
 class ObjectCheckPanel(bpy.types.Panel):
