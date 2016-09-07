@@ -73,7 +73,7 @@ def throw_json(scene,message):
         slackURL = addon_prefs.URL
         payload = {
             "channel" : addon_prefs.cn_name,
-            #"text" : addon_prefs.message, # May be implement later.
+            #"text" : addon_prefs.message, # Maybe implement later.
             "text" : message,
             "username" : "blender",
             "icon_emoji" : "ghost"
